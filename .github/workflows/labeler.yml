@@ -16,6 +16,6 @@ jobs:
       # Uses pull_request_target so labels can be applied to PRs from forks.
       # The labeler only reads the changed-file list — it never checks out or
       # runs PR code — so the elevated token is safe here.
-      - uses: actions/labeler@v5
+      - uses: actions/labeler@v6
         with:
           sync-labels: true
